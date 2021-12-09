@@ -7,3 +7,7 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+def f1(x):
+    return "am" in x
+
+print(list(filter(f1, names)))

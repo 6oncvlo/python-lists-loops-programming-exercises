@@ -13,3 +13,7 @@ tasks = [
 
 #Your code go here:
 
+def f1(x):
+	return x["done"]==True
+
+print(list(filter(f1, tasks)))
